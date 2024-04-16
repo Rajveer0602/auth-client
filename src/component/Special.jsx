@@ -28,7 +28,7 @@ const Special = () => {
                     </div>
                     <div className="flex gap-4 items-center">
                         <p className="text-xl text-center font-bold text-[#f54748]">
-                            Kebab
+                            Ice cream
                          </p> 
                         <div className="flex text-sm space-x-2 cursor-pointer">
                             <span className=" font-normal text-[#fdc55e]">4.3</span>
@@ -58,7 +58,7 @@ const Special = () => {
                     </div>
                     <div className="flex gap-4 items-center">
                         <p className="text-xl text-center font-bold text-[#f54748]">
-                            Kebab
+                        Ice cream
                          </p> 
                         <div className="flex text-sm space-x-2 cursor-pointer">
                             <span className=" font-normal text-[#fdc55e]">4.3</span>
@@ -88,7 +88,7 @@ const Special = () => {
                     </div>
                     <div className="flex gap-4 items-center">
                         <p className="text-xl text-center font-bold text-[#f54748]">
-                            Kebab
+                            Ice cream
                          </p> 
                         <div className="flex text-sm space-x-2 cursor-pointer">
                             <span className=" font-normal text-[#fdc55e]">4.3</span>
@@ -118,7 +118,7 @@ const Special = () => {
                     </div>
                     <div className="flex gap-4 items-center">
                         <p className="text-xl text-center font-bold text-[#f54748]">
-                            Kebab
+                        Ice cream
                          </p> 
                         <div className="flex text-sm space-x-2 cursor-pointer">
                             <span className=" font-normal text-[#fdc55e]">4.3</span>

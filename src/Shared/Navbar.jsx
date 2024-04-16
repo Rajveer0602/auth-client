@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import logo from "../assets/Logo.svg";
 import { TiThMenu } from "react-icons/ti";
 import { RxCross2 } from "react-icons/rx";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
     const [nav, setNav] = useState(false);
@@ -22,9 +23,11 @@ const Navbar = () => {
                         <a href="" className=" text-[#191919] text-xl font-medium hover:text-red-500">Our Menu</a>
                         <a href="" className=" text-[#191919] text-xl font-medium hover:text-red-500">Add Food</a>
                         <a href="" className=" text-[#191919] text-xl font-medium hover:text-red-500">Popular Food</a>
-                        <button className=" bg-[#F54748] active:scale-90 transition duration-100 transform hover:shadow-x1 shadow-md rounded-full px-8 py-2 text-xl font-medium text-white">
-                            login
-                        </button>
+                        <Link to='/login'>
+                            <button className=" bg-[#F54748] active:scale-90 transition duration-100 transform hover:shadow-x1 shadow-md rounded-full px-8 py-2 text-xl font-medium text-white">
+                                login
+                            </button>
+                        </Link>
                     </div>
 
                     <div className="block lg:hidden z-40" onClick={handleNav}>
@@ -38,16 +41,16 @@ const Navbar = () => {
                     bg-white/80 top-0 duration-500 ${nav ? "right-0" : "right-[-100%]"} pt-24`}>
 
                         <div className="flex flex-col gap-8 ">
-                        <a href="" className="text-[#191919] text-base font-medium hover:text-red-500">Today Special</a>
-                        <a href="" className=" text-[#191919] text-base font-medium hover:text-red-500">Why foodHunt</a>
-                        <a href="" className=" text-[#191919] text-base font-medium hover:text-red-500">Our Menu</a>
-                        <a href="" className=" text-[#191919] text-base font-medium hover:text-red-500">Add Food</a>
-                        <a href="" className=" text-[#191919] text-base font-medium hover:text-red-500">Popular Food</a>
-                        <button className=" bg-[#F54748] active:scale-90 transition duration-100 transform hover:shadow-x1 shadow-md rounded-full px-8 py-2 text-xl font-medium text-white">
-                            login
-                        </button>
+                            <a href="" className="text-[#191919] text-base font-medium hover:text-red-500">Today Special</a>
+                            <a href="" className=" text-[#191919] text-base font-medium hover:text-red-500">Why foodHunt</a>
+                            <a href="" className=" text-[#191919] text-base font-medium hover:text-red-500">Our Menu</a>
+                            <a href="" className=" text-[#191919] text-base font-medium hover:text-red-500">Add Food</a>
+                            <a href="" className=" text-[#191919] text-base font-medium hover:text-red-500">Popular Food</a>
+                            <button className=" bg-[#F54748] active:scale-90 transition duration-100 transform hover:shadow-x1 shadow-md rounded-full px-8 py-2 text-xl font-medium text-white">
+                                login
+                            </button>
 
-                    </div>
+                        </div>
                     </div>
                 </div>
             </div>
