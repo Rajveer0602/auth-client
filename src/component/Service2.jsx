@@ -26,7 +26,7 @@ const Service2 = () => {
 
             </div>
         </div>
-  )
-}
+  ) 
+} 
 
 export default Service2
