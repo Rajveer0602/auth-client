@@ -14,7 +14,7 @@ const Header = () => {
                             </span>For <span className="text-[#f54748]">Food</span> & <span className="text-[#Fdc55e]">Delievery</span>
                         </div>
                         <div className="lg: text-xl text-[#191919] md:text-lg text-base">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi dolorum assumenda quam nam possimus doloribus laborum temporibus natus voluptate nihil deserunt eum tempore placeat, dicta.
+                            "Savor the flavor, we'll bring it to your door."
                         </div>
                         <div className="flex rounded-full py-2 px-4 justify-beetween items-center bg-white shadow-md">
                             <div className="flex items-center">
