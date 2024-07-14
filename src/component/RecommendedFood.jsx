@@ -136,4 +136,4 @@ const RecommendedFood = () => {
 
 export default RecommendedFood
 
-{/* 46.56*/}
+{/* 46.56*/}   
