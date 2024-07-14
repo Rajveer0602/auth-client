@@ -19,7 +19,7 @@ const Navbar = () => {
 
                     <div className="lg:flex hidden gap-8 items-center">
                         <a href="" className="text-[#191919] text-xl font-medium hover:text-red-500">Today Special</a>
-                        <a href="" className=" text-[#191919] text-xl font-medium hover:text-red-500">Why foodHunt</a>
+                        <a href="" className=" text-[#191919] text-xl font-medium hover:text-red-500">Why foodHut</a>
                         <a href="" className=" text-[#191919] text-xl font-medium hover:text-red-500">Our Menu</a>
                         <a href="" className=" text-[#191919] text-xl font-medium hover:text-red-500">Add Food</a>
                         <a href="" className=" text-[#191919] text-xl font-medium hover:text-red-500">Popular Food</a>
@@ -30,14 +30,14 @@ const Navbar = () => {
                         </Link>
                     </div>
 
-                    <div className="block lg:hidden z-40" onClick={handleNav}>
+                    {/* <div className="block lg:hidden z-40" onClick={handleNav}>
                         {nav ? (
                             <RxCross2 size={25} className="text-[#191919] cursor-pointer" />
                         ) : (
                             <TiThMenu className="text-red-500 cursor-pointer" size={25} />
                         )}
-                    </div>
-                    <div className={`lg:hidden absolute w-1/2 sm:w-2/5 h-screen px-4 py-2 text-xl font-medium ease-in shadow-sm backdrop-blur-md 
+                    </div> */}
+                    {/* <div className={`lg:hidden absolute w-1/2 sm:w-2/5 h-screen px-4 py-2 text-xl font-medium ease-in shadow-sm backdrop-blur-md 
                     bg-white/80 top-0 duration-500 ${nav ? "right-0" : "right-[-100%]"} pt-24`}>
 
                         <div className="flex flex-col gap-8 ">
@@ -51,7 +51,7 @@ const Navbar = () => {
                             </button>
 
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </div>
